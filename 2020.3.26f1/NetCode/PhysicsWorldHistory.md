@@ -6,15 +6,15 @@
 1. Navigate to `<project_root>/Library/PackageCache/`.
 2. Copy the `com.unity.netcode@0.6.0-preview.7` package into `<project_root>/Packages/` so the PackageManager doesn't override the changes you will make.
 4. Inside the copied package directory, open the file `/Runtime/Physics/PhysicsWorldHistory.cs`
-5. Remove ```#if ENABLE_UNITY_COLLECTIONS_CHECKS
+5. Starting on line 191, remove ```#if ENABLE_UNITY_COLLECTIONS_CHECKS
   if (m_buffer.GetWorldAt(index).NumBodies > 0)
   {
       UnityEngine.Debug.LogError("Not disposing CollisionWorld before assign a new one might cause memory leak");
   }
-#endif``` check starting on line 191.
+#endif```.
 
 ## Related Bugs
-1. [AsDeferredJobArray](../Collections/NativeList/AsDeferredJobArray.md)
+1. [AsDeferredJobArray](../Collections/NativeList/AsDeferredJobArray.md) (com.unity.collections)
 
 ## Possible Errors
 ```
