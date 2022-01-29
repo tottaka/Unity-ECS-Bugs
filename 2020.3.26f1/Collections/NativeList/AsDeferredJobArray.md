@@ -14,12 +14,12 @@
 ## Error Stack
 ```
 IndexOutOfRangeException: Index 0 is out of range of '0' Length.
-Unity.Collections.NativeArray``1[T].FailOutOfRangeError (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
-Unity.Collections.NativeArray``1[T].CheckElementReadAccess (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
-Unity.Collections.NativeArray``1[T].get_Item (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
+Unity.Collections.NativeArray`1[T].FailOutOfRangeError (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
+Unity.Collections.NativeArray`1[T].CheckElementReadAccess (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
+Unity.Collections.NativeArray`1[T].get_Item (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
 Unity.NetCode.GhostSendSystem+SerializeJob.Execute (System.Int32 idx, Unity.Entities.DynamicComponentTypeHandle* ghostChunkComponentTypesPtr, System.Int32 ghostChunkComponentTypesLength) (at Packages/com.unity.netcode@0.6.0-preview.7/Runtime/Snapshot/GhostSendSystem.cs:777)
 Unity.NetCode.GhostSendSystem+SerializeJob32.Execute (System.Int32 idx) (at Packages/com.unity.netcode@0.6.0-preview.7/Runtime/Snapshot/GhostSendSystem.cs:673)
-Unity.NetCode.IJobParallelForDeferRefExtensions+JobParallelForDeferProducer``1[T].Execute (T& jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, Unity.Jobs.LowLevel.Unsafe.JobRanges& ranges, System.Int32 jobIndex) (at Packages/com.unity.netcode@0.6.0-preview.7/Runtime/Snapshot/GhostSendSystem.cs:58)
+Unity.NetCode.IJobParallelForDeferRefExtensions+JobParallelForDeferProducer`1[T].Execute (T& jobData, System.IntPtr additionalPtr, System.IntPtr bufferRangePatchData, Unity.Jobs.LowLevel.Unsafe.JobRanges& ranges, System.Int32 jobIndex) (at Packages/com.unity.netcode@0.6.0-preview.7/Runtime/Snapshot/GhostSendSystem.cs:58)
 ```
 
 ```
