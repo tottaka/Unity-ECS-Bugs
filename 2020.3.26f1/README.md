@@ -1,5 +1,5 @@
 # Collections (com.unity.collections)
-* ### [NativeList](Collections/NativeList/AsDeferredJobArray.md) (AsDeferredJobArray)
+* ### [AsDeferredJobArray](Collections/NativeList/AsDeferredJobArray.md) (NativeList)
 
 # NetCode
-* ### [NativeList](NetCode/PhysicsWorldHistory.md) (PhysicsWorldHistory)
+* ### [PhysicsWorldHistory](NetCode/PhysicsWorldHistory.md)
