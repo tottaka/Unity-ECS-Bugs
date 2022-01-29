@@ -9,9 +9,9 @@
 5. Change line 599 from `Allocator.None` to `Allocator.Invalid`.
 
 ## Related Bugs
-1. [PhysicsWorldHistory](../../NetCode/PhysicsWorldHistory.md) (com.unity.netcode)
+* [PhysicsWorldHistory](../../NetCode/PhysicsWorldHistory.md) (com.unity.netcode)
 
-## Error Stack
+## Possible Errors
 ```
 IndexOutOfRangeException: Index 0 is out of range of '0' Length.
 Unity.Collections.NativeArray`1[T].FailOutOfRangeError (System.Int32 index) (at <d3b66f0ad4e34a55b6ef91ab84878193>:0)
