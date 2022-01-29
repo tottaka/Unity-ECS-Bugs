@@ -1,4 +1,4 @@
-[Source](https://forum.unity.com/threads/2020-3-16f1-physics-world-history-objectdisposedexception-cannot-access-a-disposed-object.1158956/#post-7525850)
+[Source](https://forum.unity.com/threads/2021-2-8f1-broke-asdeferredjobarray-and-deferred-jobs.1225635/#post-7815393)
 ## Fix Description
   Change AsDeferredJobArray allocator from None to Invalid.  
 
