@@ -16,7 +16,7 @@
 ## Related Bugs
 1. [AsDeferredJobArray](../Collections/NativeList/AsDeferredJobArray.md)
 
-## Error Stack
+## Possible Errors
 ```
 ObjectDisposedException: Cannot access a disposed object.
 Object name: 'The NativeArray has been disposed, it is not allowed to access it'.
