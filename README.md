@@ -3,7 +3,7 @@ A collection of current Unity-ECS bugs that I have encountered and the solution 
 Please feel free to PR if:
 * You found an undocumented bug.
 * You know a solution for an unsolved bug.
-* Have a better, working alternate solution for a solved bug.
+* You know a better, working alternative solution for a solved bug.
   
 
 ## Please select a Unity Version for specific bug tracking...
